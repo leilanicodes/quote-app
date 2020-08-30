@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-    <RandomQuote msg="Get ready to be inspired!" />
+    <RandomQuote msg="Ready to be inspired?" />
   </div>
 </template>
 
