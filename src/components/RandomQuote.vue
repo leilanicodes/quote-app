@@ -137,9 +137,10 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+body {
   transition: background-color 0.5s ease;
 }
-
 #app {
   button {
     margin-top: 2rem;
