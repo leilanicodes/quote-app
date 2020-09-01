@@ -13,10 +13,10 @@
             quotes[0] && quotes[0].author && quotes[0].author !== 'Donald Trump'
           "
         >
-          {{ quotes[0].author }}
+          - {{ quotes[0].author }}
         </h3>
-        <h3 v-else-if="quotes[0].author === 'Donald Trump'">Buddha</h3>
-        <h3 v-else>Unknown</h3>
+        <h3 v-else-if="quotes[0].author === 'Donald Trump'">-Buddha</h3>
+        <h3 v-else>- Unknown</h3>
       </div>
     </div>
     <b-button
@@ -164,10 +164,10 @@ body {
     width: 95vw;
     margin-top: 0.5rem;
     .quote {
-      font-size: 1.9rem;
+      font-size: 1.6rem;
     }
     .author {
-      font-size: 1.9rem;
+      font-size: 1.6rem;
     }
   }
 }
